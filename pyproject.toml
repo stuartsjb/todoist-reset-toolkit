@@ -17,6 +17,11 @@ dependencies = [
   "requests>=2.32.0,<3",
 ]
 
+[project.urls]
+Homepage = "https://github.com/stuartsjb/todoist-reset-toolkit"
+Source = "https://github.com/stuartsjb/todoist-reset-toolkit"
+Issues = "https://github.com/stuartsjb/todoist-reset-toolkit/issues"
+
 [project.scripts]
 todoist-reset = "todoist_reset:main"
 
