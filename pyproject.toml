@@ -15,7 +15,6 @@ authors = [
 dependencies = [
   "python-dotenv>=1.0.1,<2",
   "requests>=2.32.0,<3",
-  "urllib3<2",
 ]
 
 [project.scripts]
