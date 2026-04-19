@@ -24,6 +24,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+On macOS, if you see an SSL/OpenSSL warning from urllib3, use a current Python from Python.org, Homebrew, or another modern Python distribution. Older Apple-provided Python builds may be linked against LibreSSL and can be incompatible with current urllib3 releases.
+
 Start the interactive helper:
 
 ```bash
