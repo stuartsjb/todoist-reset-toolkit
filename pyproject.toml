@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "todoist-reset-toolkit"
+version = "0.1.0"
+description = "Interactive and scriptable helpers for clearing a Todoist account while keeping the account itself."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Stuart" }
+]
+dependencies = [
+  "python-dotenv>=1.0.1,<2",
+  "requests>=2.32.0,<3",
+  "urllib3<2",
+]
+
+[project.scripts]
+todoist-reset = "todoist_reset:main"
+
+[tool.setuptools]
+py-modules = [
+  "cleanup_todoist_misc",
+  "delete_todoist_projects",
+  "delete_todoist_tasks",
+  "inspect_remaining_tasks",
+  "todoist_api",
+  "todoist_reset",
+  "unarchive_todoist_projects",
+]
