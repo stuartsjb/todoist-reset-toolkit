@@ -4,6 +4,8 @@ Interactive and scriptable helpers for clearing a Todoist account while keeping 
 
 This project is intended for people who want a best-effort reset of Todoist data without deleting the Todoist account, for example to preserve legacy pricing. It uses Todoist's official APIs where possible.
 
+The public GitHub repository is <https://github.com/stuartsjb/todoist-reset-toolkit>. Issues and pull requests are welcome there.
+
 ## Important Warnings
 
 These scripts are destructive. They can delete tasks, completed tasks, projects, labels, filters, sections, reminders, comments, and other metadata.

@@ -2,6 +2,8 @@
 
 Issues and pull requests are welcome.
 
+Please use the public GitHub repository: <https://github.com/stuartsjb/todoist-reset-toolkit>.
+
 This is a destructive Todoist cleanup toolkit, so safety matters more than cleverness.
 
 ## Development Setup
