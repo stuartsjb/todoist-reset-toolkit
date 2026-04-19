@@ -47,6 +47,10 @@ Never commit `.env`. It contains your Todoist API token and is ignored by git.
 
 See `SECURITY.md` before sharing logs, screenshots, exports, or bug reports.
 
+## Development Notes
+
+Much of this toolkit has been drafted and refined with help from OpenAI Codex. Contributions should still be reviewed, tested, and treated with the same care as any other code that can delete account data.
+
 ## Todoist API Usage
 
 This toolkit uses Todoist's official API and a personal API token. Todoist's developer documentation says the API can be used for free, with some features depending on the authenticated user's plan.
